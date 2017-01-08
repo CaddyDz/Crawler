@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e0cfc0-ca96-49ca-a6fc-950861dbe186" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XD.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/all/Join.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/all/Lists.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Deparsed_XSubs.pm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/all/join.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/text.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xd.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/all/Data_Types.py" afterPath="$PROJECT_DIR$/src/all/Data_Types.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/all/Hello_World.py" afterPath="$PROJECT_DIR$/src/all/Hello_World.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/all/import.py" afterPath="$PROJECT_DIR$/src/all/Import.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/if.py" afterPath="$PROJECT_DIR$/src/IF.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math.py" afterPath="$PROJECT_DIR$/src/Math.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/notes.py" afterPath="$PROJECT_DIR$/src/Notes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PyTest.iml" afterPath="$PROJECT_DIR$/.idea/PyTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/root.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/perl5local.xml" afterPath="$PROJECT_DIR$/.idea/perl5local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/all/Lists.py" afterPath="$PROJECT_DIR$/src/all/Lists.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,12 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hello_World.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hello_World.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/all/Hello_World.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lists.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/all/Lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/text.py" />
         <option value="$PROJECT_DIR$/src/xd.py" />
         <option value="$PROJECT_DIR$/src/all/Hello_World.py" />
+        <option value="$PROJECT_DIR$/src/all/Lists.py" />
       </list>
     </option>
   </component>
@@ -238,24 +230,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.xd">
-    <configuration default="false" name="if" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/IF.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Lists">
     <configuration default="false" name="math" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,6 +295,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyTest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/all" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/all/Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -459,19 +451,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.if" />
-      <item index="1" class="java.lang.String" itemvalue="Python.math" />
-      <item index="2" class="java.lang.String" itemvalue="Python.xd" />
-      <item index="3" class="java.lang.String" itemvalue="Python.join" />
-      <item index="4" class="java.lang.String" itemvalue="Python.notes" />
+      <item index="0" class="java.lang.String" itemvalue="Python.math" />
+      <item index="1" class="java.lang.String" itemvalue="Python.xd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.join" />
+      <item index="3" class="java.lang.String" itemvalue="Python.notes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Lists" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.xd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.notes" />
-        <item index="2" class="java.lang.String" itemvalue="Python.join" />
-        <item index="3" class="java.lang.String" itemvalue="Python.math" />
-        <item index="4" class="java.lang.String" itemvalue="Python.if" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Lists" />
+        <item index="1" class="java.lang.String" itemvalue="Python.xd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.notes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.join" />
+        <item index="4" class="java.lang.String" itemvalue="Python.math" />
       </list>
     </recent_temporary>
   </component>
@@ -498,16 +490,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-32" width="1920" height="1112" extended-state="7" />
-    <editor active="false" />
+    <frame x="0" y="-32" width="1920" height="1112" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.27427426" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3833834" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.21921922" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -709,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/all/Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/all/Import.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -794,6 +778,16 @@
         <state relative-caret-position="30">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+# Visual Studio Code Editor configuration folder
+.vscode
+# Pycharm IDE configuration folder
+.idea

@@ -90,4 +90,4 @@ ENV/
 # Visual Studio Code Editor configuration folder
 .vscode
 # Pycharm IDE configuration folder
-# .idea
+.idea

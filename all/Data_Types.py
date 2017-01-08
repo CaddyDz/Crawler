@@ -3,4 +3,4 @@
 number = 5
 string = "Salim"
 List = ['Numbers', 'Strings', 'Lists', 'Tuples', 'Dictionaries']
-Tupes = 
+Tuples = 12

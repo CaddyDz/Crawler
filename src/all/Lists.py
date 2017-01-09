@@ -31,3 +31,7 @@ grocery_list.sort()
 print(grocery_list)  # Sort the list alphabetically
 del grocery_list[0]
 print(grocery_list)
+to_do_list2 = other_events + grocery_list
+print(len(to_do_list2))
+print(max(to_do_list2))
+print(min(to_do_list2))

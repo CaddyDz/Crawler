@@ -1,6 +1,3 @@
-import random
-import sys
-import os
 # Lists acts like arrays in Python but must be stored between brackets and separated by commas
 grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
 # List's items can be accessed by index
@@ -27,3 +24,10 @@ print(to_do_list)
 # Use insert instead of append to add an item on a specific index
 grocery_list.insert(1, "sth")
 print(to_do_list)
+# Use the remove function to remove items from a list
+grocery_list.remove("sth")
+print(grocery_list)  # Outputs ['Green Juice', 'Tomatoes', 'Potatoes', 'Bananas', 'Onion']
+grocery_list.sort()
+print(grocery_list)  # Sort the list alphabetically
+del grocery_list[0]
+print(grocery_list)

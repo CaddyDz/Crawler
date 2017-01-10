@@ -27,3 +27,4 @@ elif not(age == 30):
 	print("You don't get a birthday")
 else:
 	print("You get a birthday party yeah")
+# test the waka.

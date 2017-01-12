@@ -6,3 +6,4 @@ elif age > 60:
     print("You are too old to drive")
 else:
     print("You are too young to drive")
+# how many languages can it detect

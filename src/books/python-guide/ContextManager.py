@@ -18,3 +18,4 @@ class CustomOpen(object):
 
 with CustomOpen('file.txt') as f:
     contents = f.read()
+

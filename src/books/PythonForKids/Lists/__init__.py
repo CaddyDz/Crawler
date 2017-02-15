@@ -5,3 +5,8 @@ some_numbers = [1, 2, 5, 10, 20]
 some_strings = ['Which', 'Witch', 'Is', 'Which']
 numbers_and_strings = ['Why', 'was', 6, 'afraid', 'of', 7, 'because', 7, 8, 9]
 print(numbers_and_strings)
+# Lists might even store other lists
+numbers = [1, 2, 3, 4]
+strings = ['I', 'kicked', 'my', 'toe', 'and', 'it', 'is', 'sore']
+mylist = [numbers, strings]
+print(mylist)

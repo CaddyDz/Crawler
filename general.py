@@ -1,53 +1,46 @@
 import os
 
-
 # Each website you crawl is a separate project (folder)
-
-
-def create_project_dir(directory):
-    if not os.path.exists(directory):
-        print('Creating project ' + directory)
-        os.makedirs(directory)
-
+def createProjectDir(directory):
+	if not os.path.exists(directory):
+		print('Creating project ' + directory)
+		os.makedirs(directory)
 
 # Create queue and crawled files (if not crawled)
-
-
-def create_data_files(project_name, base_url):
-    queue = project_name + '/queue.txt'
-    crawled = project_name + '/crawled.txt'
-    if not os.path.isfile(queue):
-        write_file(queue, base_url)
-    if not os.path.isfile(crawled):
-        write_file(crawled, '')
-
-
+def createDataFiles(projectName, baseUrl):
+	queue = projectName + '/queue.txt'
+	crawled = projectName + '/crawled.txt'
+	if not os.path.isfile(queue):
+		writeFile(queue, baseUrl)
+	if not os.path.isfile(crawled):
+		writeFile(crawled, '')
+		
 # Create a new file
-
-
-def write_file(path, data):
-    f = open(path, 'w')
-    f.write(data)
-    f.close()
+def writeFile(path, data):
+	f = open(path, 'w')
+	f.write(data)
+	f.close()
 
 # Add data onto an existing file
-
-
-def append_to_file(path, data):
-    with open(path, 'a') as _file:
-        _file.write(data + '\n')
+def appendToFile(path, data):
+	with open(path, 'a') as file:
+		file.write(data + '\n')
 
 # Delete the content of a file
+def deleteFileContent(path):
+	with open(path, 'w'):
+		pass
 
+# Read a file and convert each line to set items
+def fileToSet(fileName):
+	results = set()
+	with open(fileName, 'rt') as f:
+		for line in f:
+			results.add(line.replace('\n', ''))
+	return results
 
-def delete_file_content(path):
-    with open(path, 'w'):
-        pass
-
-
-
-
-
-
-
-
+# Iterate through a set, each item will be a new line in the file
+def setToFile(links, file):
+	deleteFileContent(file)
+	for link in sorted(links):
+		appendToFile(file, link)

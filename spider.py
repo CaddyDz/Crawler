@@ -29,4 +29,13 @@ class spider:
 		createDataFiles(spider.project_name, spider.base_url)
 		spider.queue = fileToSet(spider.queue_file)
 		spider.crawled = fileToSet(spider.crawled_file)
-	 
+	
+	@staticmethod
+	def crawl_page(thread_name, page_url):
+		if page_url not in spider.crawled:
+			print(thread_name + ' now crawling ' + page_url)
+			print('Queue ' + str(len(spider.queue)) + ' | crawled ' + str(len(spider.crawled)))
+			spider.add_links_to_queue(spider.gather_links())
+			spider.queue.remove(page_url)
+			spider.crawled.add(page_url)
+			spider.update_files()

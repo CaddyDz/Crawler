@@ -22,6 +22,7 @@ class spider:
 		spider.crawled_file = spider.project_name + '/crawled.txt'
 		self.boot()
 		self.crawl_page('First spider', spider.base_url)
+		
 
 	@staticmethod
 	def boot():
@@ -35,7 +36,7 @@ class spider:
 		if page_url not in spider.crawled:
 			print(thread_name + ' now crawling ' + page_url)
 			print('Queue ' + str(len(spider.queue)) + ' | crawled ' + str(len(spider.crawled)))
-			spider.add_links_to_queue(spider.gather_links())
+			spider.add_links_to_queue(spider.gather_links(page_url))
 			spider.queue.remove(page_url)
 			spider.crawled.add(page_url)
 			spider.update_files()
